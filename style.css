@@ -1,0 +1,77 @@
+body{
+    margin: 0;
+    padding: 0;
+    background : url("siyara.jpg.png");
+    background-size: cover;
+    font-family: sans-serif;
+    color: rgb(255, 145, 0);
+}
+.Login-Form{
+    background-color: rgb(131, 165, 123,.5);
+    width: 380px;
+    height: 350px;
+    margin: 0;
+    border-radius: 5%;
+    padding: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    box-sizing: border-box;
+    transform: translate(-50%,-50%);
+
+}
+h1{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    text-align: center;
+}
+p{
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+
+}
+input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.Login-Form input[type="text"], input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 35px;
+    font-size: 18px;
+    color: white;
+}
+.Login-Form input[type="button"]
+{
+    border: none;
+    background-color: #0000ff;
+    color: white;
+    outline: none;
+    height: 35px;
+    font-size: 18px;
+    border-radius: 8%;
+}
+.Login-Form input[type="button"]:hover
+{
+    background-color: #000;
+    color: white;
+    cursor: pointer;
+
+}
+.Login-Form a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+.Login-Form img{
+    width:85px;
+    height: 85px;
+    position: absolute;
+    top: -60px;
+    left: calc(50% - 50px);
+}
